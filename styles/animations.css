@@ -36,11 +36,7 @@
 
 .like-icon.is-liked .heart {
   animation: scaling 0.3s 0.1s 1 ease-in;
-}
-
-.heart {
-  transition: 0.3s ease-in;
-  animation-iteration-count: 1;
+  transform-origin: center;
 }
 
 .card__icon-button:hover .main-body {
@@ -65,17 +61,17 @@
 
 .like-icon.is-liked .contour {
   fill: var(--color-heart);
-  transition: 0.3s 0.06s;
+  transition: 0.3s 0.06s linear;
 }
 
 .like-icon.is-liked .core {
   fill: var(--color-heart);
-  transition: opacity 0.3s;
+  transition: opacity 0.3s linear;
 }
 
 .like-icon.is-liked .main-body {
   fill: var(--color-heart);
-  transition: 0.3s 0.5s;
+  transition: 0.3s 0.5s linear;
 }
 
 .contour {

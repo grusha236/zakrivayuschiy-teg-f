@@ -1,23 +1,25 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    --font-family: "Inter-Variable", sans-serif;
-    --accent-family: "PressStart2P", sans-serif;
-    --wght-heading: 700;
-    --wght-text: 400;
-    --font-size-main: 18px;
-    --font-size-accent: 14px;
+  --font-family: "Inter-Variable", sans-serif;
+  --accent-family: "PressStart2P", fantasy;
+  --wght-heading: 700;
+  --wght-text: 400;
+  --font-size-main: 18px;
+  --font-size-accent: 14px;
 
-    --bg-color: #fff;
-    --bg-image: repeating-linear-gradient(to right,
-            #d3d3d3 0 2px,
-            rgba(211 211 211 / 0) 2px 4px),
-        repeating-linear-gradient(#d3d3d3 0 2px, rgba(211 211 211 / 0) 2px 4px),
-        repeating-linear-gradient(#e7e7e7 0.01%, #1a1a1a);
-    --outline: 2px solid #000;
-    --accent-color: #000;
-    --bg-color-button: #fff;
+  --bg-color: #fff;
+  --bg-image: repeating-linear-gradient(
+      to right,
+      #d3d3d3 0 2px,
+      rgba(211 211 211 / 0) 2px 4px
+    ),
+    repeating-linear-gradient(#d3d3d3 0 2px, rgba(211 211 211 / 0) 2px 4px),
+    repeating-linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+  --outline: 2px solid #000;
+  --accent-color: #000;
+  --bg-color-button: #fff;
 
-    --color-contour: #000;
-    --color-heart: #ff0000;
-    --color-sparks: #ff0000;
+  --color-contour: #000;
+  --color-heart: #ff0000;
+  --color-sparks: #ff0000;
 }
