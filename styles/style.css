@@ -155,12 +155,11 @@
 }
 
 .button:focus-visible {
-  box-shadow: 2px 2px 0 var(--accent-color);
+  box-shadow: 2px 2px 0 2px var(--accent-color);
 }
 
 .card__like-button {
   width: 130px;
-  height: 38px;
   padding-block: 9px;
 }
 
